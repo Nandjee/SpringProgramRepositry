@@ -16,6 +16,7 @@ public class SpringApplicationCustomizeService {
 		PriodicMaintainceService service=context.getBean("service",PriodicMaintainceService.class);
      int ser=service.getservicetilinyear();
      System.out.println(ser);
+	 System.out.println("hi");
 		
 		
 		
